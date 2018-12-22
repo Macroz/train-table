@@ -5,7 +5,7 @@ A small project in ClojureScript. Fetches R-train information from
 [rata.digitraffic.fi](https://rata.digitraffic.fi/) API and displays
 it in an SVG. A prototype of a real table with LEDs.
 
-![Train Table](train_table.jpg)
+![Train Table](train_table.png)
 
 Getting started
 ===============
