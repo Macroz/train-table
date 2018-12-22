@@ -5,6 +5,8 @@ A small project in ClojureScript. Fetches R-train information from
 [rata.digitraffic.fi](https://rata.digitraffic.fi/) API and displays
 it in an SVG. A prototype of a real table with LEDs.
 
+![Train Table](train_table.jpg)
+
 Getting started
 ===============
 
@@ -16,9 +18,10 @@ Getting started
 Project structure
 =================
 
-- `project.clj`: the configuration file for Leiningen
-- `src/cljs/train_table/core.cljs`: the code is here
-- `resources/public/css/style.css`: the CSS style file
+- [`project.clj`](project.clj) – the configuration file for Leiningen
+- [`src/cljs/train_table/core.cljs`](src/cljs/train_table/core.cljs) – the code is here
+- [`resources/public/index.html`](resources/public/index.html) – the HTML file
+- [`resources/public/css/style.css`](resources/public/css/style.css): the CSS style file
 
 Useful documentation
 ====================
