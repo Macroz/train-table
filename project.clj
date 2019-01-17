@@ -1,17 +1,17 @@
 (defproject macroz/train-table "0.1.0"
-  :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/clojurescript "1.9.946"]
-                 [reagent "0.8.0"]
+  :dependencies [[org.clojure/clojure "1.10.0"]
+                 [org.clojure/clojurescript "1.10.439"]
+                 [reagent "0.8.1"]
                  [re-frame "0.10.6"]
-                 [day8.re-frame/http-fx "0.1.4"]
-                 [cljsjs/react "15.6.1-1"]
-                 [cljsjs/react-dom "15.6.1-1"]
-                 [cljs-ajax "0.7.3"]
+                 [day8.re-frame/http-fx "0.1.6"]
+                 [cljsjs/react "16.6.0-0"]
+                 [cljsjs/react-dom "16.6.0-0"]
+                 [cljs-ajax "0.8.0"]
                  [com.andrewmcveigh/cljs-time "0.5.2"]]
 
   :plugins [[lein-cljsbuild "1.1.5"]]
 
-  :min-lein-version "2.5.3"
+  :min-lein-version "2.8.3"
 
   :source-paths ["src/clj"]
 
@@ -21,11 +21,11 @@
 
   :profiles
   {:dev
-   {:dependencies [[binaryage/devtools "0.9.4"]
-                   [figwheel-sidecar "0.5.13"]
-                   [com.cemerick/piggieback "0.2.1"]]
+   {:dependencies [[binaryage/devtools "0.9.10"]
+                   [figwheel-sidecar "0.5.18"]
+                   [cider/piggieback "0.3.10"]]
 
-    :plugins      [[lein-figwheel "0.5.13"]]}}
+    :plugins      [[lein-figwheel "0.5.18"]]}}
 
   :cljsbuild
   {:builds
